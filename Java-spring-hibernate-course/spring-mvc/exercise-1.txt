@@ -1,0 +1,2 @@
+Develop a basic server with spring that provides a form to the user to get information such as first name, lastname, nationality and favorite programming language.
+Use checkboxes, dropdown menues and provide a confirmation page showing the information entered by the user.
