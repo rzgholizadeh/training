@@ -1,0 +1,1 @@
+This exercise is about form validation in spring mvc
