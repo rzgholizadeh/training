@@ -3,5 +3,9 @@ Perform form validation on Firstname and Lastname fields and
 redirect the user to suitable pages based on the result of validation 
 
 
-Extra part:
-preprocess the values in the input fields using @initBinder 
+Added part:
+preprocess the string values in the input fields using @initBinder 
+
+Added part:
+used number validation by first adding a number field and then adding
+validation rule to customer class
