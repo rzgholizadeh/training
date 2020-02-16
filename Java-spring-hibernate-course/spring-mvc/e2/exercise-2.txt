@@ -1,3 +1,7 @@
 This exercise is about form validation in spring mvc using Hibernate Validator
 Perform form validation on Firstname and Lastname fields and 
 redirect the user to suitable pages based on the result of validation 
+
+
+Extra part:
+preprocess the values in the input fields using @initBinder 
