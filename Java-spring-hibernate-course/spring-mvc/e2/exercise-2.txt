@@ -9,3 +9,7 @@ preprocess the string values in the input fields using @initBinder
 Added part:
 used number validation by first adding a number field and then adding
 validation rule to customer class
+
+Added part:
+Add a postal code field to the customer form and use regular expressions
+to validate the field
