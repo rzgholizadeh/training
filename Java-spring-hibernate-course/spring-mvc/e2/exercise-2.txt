@@ -1,15 +1,19 @@
+Part 1:
 This exercise is about form validation in spring mvc using Hibernate Validator
 Perform form validation on Firstname and Lastname fields and 
 redirect the user to suitable pages based on the result of validation 
 
 
-Added part:
+Part 2:
 preprocess the string values in the input fields using @initBinder 
 
-Added part:
+Part 3:
 used number validation by first adding a number field and then adding
 validation rule to customer class
 
-Added part:
+Part 4:
 Add a postal code field to the customer form and use regular expressions
 to validate the field
+
+Part 5:
+Add cutom error message feature to the solution
