@@ -17,3 +17,6 @@ to validate the field
 
 Part 5:
 Add cutom error message feature to the solution
+
+Part 6:
+Add custom validation feature to the solution

@@ -1,0 +1,4 @@
+This exercise is about learning the basic of Hibernate.
+
+Part 1:
+Set up the eclipse project with proper MySQL lib files
