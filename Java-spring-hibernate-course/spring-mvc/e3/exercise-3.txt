@@ -5,3 +5,9 @@ Set up the eclipse project with proper MySQL lib files
 
 Part 2:
 Create a database named students and perform basic CRUD operations using Hibernate framework
+
+Extra Practice:
+Create an app using Hibernate to read/write data to database table.
+The database design:
+Table - Employee
+Columns- first_name, last_name,company
