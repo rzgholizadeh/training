@@ -2,3 +2,6 @@ This exercise is about learning the basic of Hibernate.
 
 Part 1:
 Set up the eclipse project with proper MySQL lib files
+
+Part 2:
+Create a database named students and perform basic CRUD operations using Hibernate framework
