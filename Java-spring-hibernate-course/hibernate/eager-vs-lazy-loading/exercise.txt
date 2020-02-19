@@ -1,0 +1,2 @@
+This exercise is for learning the difference of eager and lazy loading.
+Also, to develop the solution in a way to use both of them.
