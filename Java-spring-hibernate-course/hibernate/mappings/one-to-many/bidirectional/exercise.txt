@@ -1,0 +1,2 @@
+This exercise is for learning one-to-many relationship in Hibernate.
+the solution implements basic CRUD operations in this scheme.

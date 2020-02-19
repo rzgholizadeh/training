@@ -1,2 +1,2 @@
-This exercise is for learning one-to-many relationship in Hibernate.
-the solution implements basic CRUD operations in this scheme.
+This exercise is for learning one-to-many unidirectional mapping in Hibernate.
+The solution is for CRUD operation with this mapping type using lazy fetch.
