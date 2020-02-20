@@ -1,0 +1,3 @@
+This exercise is for learning spring aop focusing on @Before advice
+
+The solution is a simple java project that shows the basic app flow of @Before advice in spring aop
