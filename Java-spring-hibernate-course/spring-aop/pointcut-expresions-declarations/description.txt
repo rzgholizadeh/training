@@ -1,0 +1,7 @@
+This topic is for learning pointcut expressions and declarations
+
+For the expressions this code covers method names, return types, packages, wildcards.
+
+Pointcut declaration is for being able to reuse already created pointcuts without copy/paste
+
+Combining pointcuts using logical operands
