@@ -1,0 +1,7 @@
+This topic is about Spring-AOP @Around advice.
+It is like the combination of @Before and @After with more fine-grained control over the process.
+
+It is ususally used for logging, auditing and security.
+It can also be used for Instrumation and Profiling the code.
+
+The solution covers both progiling and exception handling features.
