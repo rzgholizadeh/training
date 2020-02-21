@@ -1,0 +1,1 @@
+This topic is about Spring-AOP @AfterThrowing advice that can be used for handling exceptions
