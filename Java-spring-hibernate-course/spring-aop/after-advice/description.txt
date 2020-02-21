@@ -1,0 +1,6 @@
+This topic is about Spring-AOP @After advice.
+This advice is similar to finally block in try/catch/finally that will always run.
+It can be used for logging the exceptions or auditing, run a code regardless of outcome of a method.
+
+Note that it does not have acess to the exceptions
+Note that it will always run before @AfterThrowing or @AfterReturning
