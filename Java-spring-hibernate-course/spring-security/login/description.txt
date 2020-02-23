@@ -1,0 +1,1 @@
+This is a spring simple web-app that provides basic login feature that spring has.
