@@ -1,0 +1,1 @@
+This topic is about spring security supporting db connection.
