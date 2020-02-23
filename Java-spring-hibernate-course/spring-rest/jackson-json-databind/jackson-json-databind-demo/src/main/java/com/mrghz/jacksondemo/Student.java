@@ -2,6 +2,10 @@ package com.mrghz.jacksondemo;
 
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+//ignore unknown properties
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Student {
 
 	private int id;

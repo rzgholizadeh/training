@@ -2,7 +2,9 @@ package com.mrghz.jacksondemo;
 
 import java.io.File;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.ObjectMapper;
+
 
 public class Driver {
 
