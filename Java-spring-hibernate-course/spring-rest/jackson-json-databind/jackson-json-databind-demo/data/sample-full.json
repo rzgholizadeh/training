@@ -1,0 +1,19 @@
+{
+	"id": 14,
+	"firstName": "Jimmy",
+	"lastName": "Buttler",
+	"active": true,
+	"address": {
+		"street": "100 Main St",
+		"city": "Philadelphia",
+		"state": "Pennsylvania",
+		"zip": "19403",
+		"country": "USA"
+	},
+	"languages": [
+		"Java",
+		"C#",
+		"Python",
+		"Javascript"
+	]
+}
