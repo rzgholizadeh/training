@@ -1,0 +1,1 @@
+This is a spring simple web-app that has a custom login-page with error message with logout option
