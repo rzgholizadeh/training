@@ -1,1 +1,2 @@
-This is a basic spring-rest server which return "Hello World!".
+This is a basic spring-rest server that return list of students or a single student with the id in format of JSON.
+There is exception hadnling mechanism too.
