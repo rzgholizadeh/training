@@ -1,0 +1,1 @@
+This is a basic database rest crud app developed using spring data jap and rest.
