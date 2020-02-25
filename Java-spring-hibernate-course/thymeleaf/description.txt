@@ -1,0 +1,1 @@
+A basic solution using Thymeleaf and bootstrap to show a simple table from hardcoded data.
