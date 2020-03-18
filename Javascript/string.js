@@ -32,3 +32,19 @@ console.log(someString.indexOf("9"));
 console.log("Calling slice with (1,3) on '012345': " + someString.slice(1, 3));
 // replace
 console.log(someString.replace("01", "99"));
+
+// escape characters work with '\'
+someString = "this is a test for ' character";
+
+// new line
+someString = "the first line\nthe second line";
+
+// use '\\' for showing a '\'
+someString = "\\";
+
+// template literals: use ` ` for it
+//it is usually used for embedded information
+// ${} can be used to put js code in the string
+
+someString = `This is ${1 + 2} as a number`;
+console.log(someString);
