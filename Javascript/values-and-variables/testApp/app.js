@@ -1,1 +1,2 @@
-alert("The app is working");
+//alert("hello world!");
+console.error("this is an error");
