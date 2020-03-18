@@ -18,4 +18,4 @@ console.log(0 === "someCharacter");
 console.log(0 === "");
 console.log(null === undefined);
 
-// usually === is always the preference!
+// usually === (!==) is always the preference!
