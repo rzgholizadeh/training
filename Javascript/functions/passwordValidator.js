@@ -14,4 +14,4 @@ function otherIsValid(password, username) {
 	return !tooShort && !hasSpace && !tooSimilar;
 }
 
-console.log(isValid("HelloKittysomeuser", "someuser"));
+console.log(otherIsValid("HelloKittysomeuser", "someuser"));
