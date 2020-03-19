@@ -8,13 +8,10 @@ function isValid(password, username) {
 console.log(isValid("HelloKittysomeuser", "someuser"));
 
 function otherIsValid(password, username) {
-	if (
-		password.length < 8 ||
-		password.indexOf(" ") !== -1 ||
-		password.indexOf(username) !== -1
-	)
-		return false;
-	return true;
+	const tooShort = password.length < 8;
+	const hasSpace = password.indexOf(" ") !== -1;
+	const tooSimilar = password.indexOf(username) !== -1;
+	return !tooShort && !hasSpace && !tooSimilar;
 }
 
 console.log(isValid("HelloKittysomeuser", "someuser"));
