@@ -29,3 +29,20 @@ const capWords = words.map(function(word) {
 console.log(words);
 console.log(capWords);
 
+// arrow functions: alternative to function expressions
+// if there is only one input parameter, brackets are not mandatory
+const someFunc = function(x) {
+	return x + x;
+};
+const arrowFuncVersion = x => {
+	return x + x;
+};
+
+// some arrow function can have implicit return value (one expressions)
+const square = n => {
+	return n * n;
+};
+
+const implicitVerSquare = n => n * n;
+
+//
