@@ -45,4 +45,21 @@ const square = n => {
 
 const implicitVerSquare = n => n * n;
 
-//
+// reduce: takes an array of values and results a single value
+// first parameter is accumulator (total), and the second is cuurentValue
+// and after the callback function is the initial value
+const anArr = [2, 4, 8, 11, 44];
+const summation = anArr.reduce((total, currValue) => {
+	return total + currValue;
+}, 100);
+console.log(summation);
+
+// more use cases for reduce
+// find the max value in an array
+
+const max = anArr.reduce((maxVal, currVal) => {
+	//if (maxVal <= currVal) return currVal;
+	//return maxVal;
+	return Math.max(maxVal, currVal);
+});
+console.log(max);
