@@ -47,7 +47,7 @@ const implicitVerSquare = n => n * n;
 
 // reduce: takes an array of values and results a single value
 // first parameter is accumulator (total), and the second is cuurentValue
-// and after the callback function is the initial value
+// and after the callback function is the initial value (optional)
 const anArr = [2, 4, 8, 11, 44];
 const summation = anArr.reduce((total, currValue) => {
 	return total + currValue;
@@ -63,3 +63,22 @@ const max = anArr.reduce((maxVal, currVal) => {
 	return Math.max(maxVal, currVal);
 });
 console.log(max);
+
+// using reduce to count and group elements of an array
+someStrs = ["asd", "asd", "qwe", "zxc", "asd", "zxc", "qwe", "asd"];
+let result = someStrs.reduce((tally, val) => {
+	if (tally[val]) {
+		tally[val]++;
+	} else {
+		tally[val] = 1;
+	}
+	return tally;
+}, {});
+console.log(result);
+
+// shorter way!
+result = someStrs.reduce((tally, val) => {
+	tally[val] = (tally[val] || 0) + 1;
+	return tally;
+}, {});
+console.log(result);
