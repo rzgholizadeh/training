@@ -8,3 +8,5 @@ function anotherTest(message = "some default message") {
 }
 
 anotherTest();
+// all defaults should be assigned from the last paramter to the first
+// it does not work the other way
