@@ -3,6 +3,11 @@ h1 {
 	font-size: 60px;
 }
 
+h1:hover {
+	color: yellowgreen;
+	font-size: 100px;
+}
+
 #sj {
 	width: 250px;
 }
