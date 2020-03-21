@@ -32,3 +32,13 @@ console.log(h1Style.fontSize);
 // using classList
 const todo = document.querySelector("#todos .todo");
 todo.classList.toggle("todo");
+
+// creating elements
+const newh2 = document.createElement("h2");
+newh2.innerText = "This is new element";
+newh2.classList.add("special");
+
+
+//// using appendChile
+const section = document.querySelector("section");
+section.appendChild(newh2);
