@@ -8,6 +8,7 @@ const printPlanets = ({ data }) => {
 	for (let planet of data.results) {
 		console.log(planet.name);
 	}
+	// the function should return a promise to be able to chain to it
 	return Promise.resolve(data.next);
 };
 
