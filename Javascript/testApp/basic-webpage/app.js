@@ -1,2 +1,9 @@
-//alert("hello world!");
-console.error("this is an error");
+axios
+	.get("https://swapi.co/api/people/")
+	.then(res => {
+		console.log(res.data);
+	})
+	.catch(err => {
+		console.log("jello!");
+		console.log(err);
+	});
