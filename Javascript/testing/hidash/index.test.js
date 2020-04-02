@@ -41,7 +41,11 @@ test("The map function", () => {
 		throw new Error(`Expected to find 2, but found ${result[2]}`);
 	}
     */
+
+	/*
 	assert.strictEqual(result[0], 2);
 	assert.strictEqual(result[1], 4);
-	assert.strictEqual(result[2], 6);
+    assert.strictEqual(result[2], 6);
+    */
+	assert.deepStrictEqual(result, [1, 4, 6]);
 });
