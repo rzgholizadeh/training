@@ -3,6 +3,7 @@ import React from "react";
 import keys from "../keys";
 import SearchBar from "./SearchBar";
 import youtube from "../apis/youtube";
+import VideoList from "./VideoList";
 
 class App extends React.Component {
     state = { videos: [] };
@@ -16,14 +17,13 @@ class App extends React.Component {
                 key: keys.youTubeApiKey
             }
         });
-        console.log(response.data.items);
         this.setState({ videos: response.data.items });
     };
     render() {
         return (
             <div className="ui container">
                 <SearchBar onFormSubmit={this.onTermSubmit} />
-                The list: {this.state.videos.length}
+                <VideoList videos={this.state.videos} />
             </div>
         );
     }
