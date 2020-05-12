@@ -1,7 +1,12 @@
 import React from "react";
+import { selectSong } from "../actions";
 
 const App = () => {
-    return <div>some text</div>;
+    return (
+        <div>
+            <div></div>
+        </div>
+    );
 };
 
 export default App;
